@@ -1,0 +1,117 @@
+/*Index html css*/
+/* Basic Styles */
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background-image: url('../images/car_background_index.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: #EAEAEA !important; /* Change the color and use !important to ensure it's applied */
+}
+
+
+.jumbotron h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Featured Vehicles Styling */
+.card {
+    min-height: 500px; /* Set a minimum height for the cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* Ensure a uniform height for card images */
+.card-img-top {
+    height: 300px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    width: 100%;
+}
+
+.card-body {
+    flex-grow: 1; /* Ensures the card-body takes up available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns the content at the bottom */
+}
+
+.btn {
+    margin-top: 10px; /* Add spacing between button and content */
+}
+/* About Us Hero Section */
+.about-hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ABOUT US */
+/* Content Section Styling */
+.container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.img-fluid {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+
